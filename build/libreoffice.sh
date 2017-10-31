@@ -16,7 +16,7 @@ AWS_BASE_URL=https://s3.amazonaws.com/static.hubstaff.com/heroku_libreoffice_bui
 #MESA_DOWNLOAD_URL="ftp://ftp.freedesktop.org/pub/mesa/older-versions/11.x/11.0.9/mesa-11.0.9.tar.xz"
 #GLU_DOWNLOAD_URL="ftp://ftp.freedesktop.org/pub/mesa/glu/glu-9.0.0.tar.gz"
 #POPPLER_DOWNLOAD_URL="https://poppler.freedesktop.org/poppler-0.51.0.tar.xz"
-#POPPLER_DOWNLOAD_URL="https://github.com/NetsoftHoldings/poppler/archive/netsoft-0.56.tar.gz"
+#POPPLER_DOWNLOAD_URL="https://github.com/NetsoftHoldings/poppler/archive/netsoft-0.56.1.tar.gz"
 #OPENJPEG_DOWNLOAD_URL="https://github.com/uclouvain/openjpeg/archive/v2.1.2.tar.gz"
 #CMAKE_DOWNLOAD_URL="https://cmake.org/files/v3.9/cmake-3.9.0-Linux-x86_64.tar.gz"
 
@@ -31,7 +31,7 @@ FLEX_DOWNLOAD_URL="$AWS_BASE_URL/flex-2.5.39.tar.xz"
 MESA_DOWNLOAD_URL="$AWS_BASE_URL/mesa-11.0.9.tar.xz"
 GLU_DOWNLOAD_URL="$AWS_BASE_URL/glu-9.0.0.tar.gz"
 OPENJPEG_DOWNLOAD_URL="$AWS_BASE_URL/openjpeg-v2.1.2.tar.gz"
-POPPLER_DOWNLOAD_URL="https://github.com/NetsoftHoldings/poppler/archive/netsoft-0.56.tar.gz"
+POPPLER_DOWNLOAD_URL="https://github.com/NetsoftHoldings/poppler/archive/netsoft-0.56.1.tar.gz"
 CMAKE_DOWNLOAD_URL="$AWS_BASE_URL/cmake-3.9.0-Linux-x86_64.tar.gz"
 
 
