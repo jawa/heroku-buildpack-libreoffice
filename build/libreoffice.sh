@@ -7,7 +7,7 @@ AWS_BASE_URL=https://s3.amazonaws.com/static.hubstaff.com/heroku_libreoffice_bui
 
 # Official download for .debs
 DEB_DOWNLOAD_URL="http://download.documentfoundation.org/libreoffice/stable/${VERSION}/deb/x86_64/LibreOffice_${VERSION}_Linux_x86-64_deb.tar.gz"
-GETTEXT_DOWNLOAD_URL="http://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.tar.xz.sig"
+GETTEXT_DOWNLOAD_URL="http://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.tar.gz"
 DBUS_DOWNLOAD_URL="http://dbus.freedesktop.org/releases/dbus/dbus-1.12.2.tar.gz"
 LIBFFI_DOWNLOAD_URL="ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
 GLIB_DOWNLOAD_URL="http://ftp.gnome.org/pub/gnome/sources/glib/2.55/glib-2.55.0.tar.xz"
