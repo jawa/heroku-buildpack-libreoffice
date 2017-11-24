@@ -7,18 +7,18 @@ AWS_BASE_URL=https://s3.amazonaws.com/static.hubstaff.com/heroku_libreoffice_bui
 
 # Official download for .debs
 DEB_DOWNLOAD_URL="http://download.documentfoundation.org/libreoffice/stable/${VERSION}/deb/x86_64/LibreOffice_${VERSION}_Linux_x86-64_deb.tar.gz"
-GETTEXT_DOWNLOAD_URL="http://ftp.gnu.org/pub/gnu/gettext/gettext-0.18.3.1.tar.gz"
-DBUS_DOWNLOAD_URL="http://dbus.freedesktop.org/releases/dbus/dbus-1.6.18.tar.gz"
-LIBFFI_DOWNLOAD_URL="ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz"
-GLIB_DOWNLOAD_URL="http://ftp.gnome.org/pub/gnome/sources/glib/2.38/glib-2.38.2.tar.xz"
-DBUS_GLIB_DOWNLOAD_URL="http://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.100.2.tar.gz"
-FLEX_DOWNLOAD_URL="http://sourceforge.net/projects/flex/files/flex-2.5.39.tar.xz/download"
-MESA_DOWNLOAD_URL="ftp://ftp.freedesktop.org/pub/mesa/older-versions/11.x/11.0.9/mesa-11.0.9.tar.xz"
+GETTEXT_DOWNLOAD_URL="http://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.tar.xz.sig"
+DBUS_DOWNLOAD_URL="http://dbus.freedesktop.org/releases/dbus/dbus-1.12.2.tar.gz"
+LIBFFI_DOWNLOAD_URL="ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+GLIB_DOWNLOAD_URL="http://ftp.gnome.org/pub/gnome/sources/glib/2.55/glib-2.55.0.tar.xz"
+DBUS_GLIB_DOWNLOAD_URL="http://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.108.tar.gz"
+FLEX_DOWNLOAD_URL="http://sourceforge.net/projects/flex/files/flex-2.6.0.tar.xz/download"
+MESA_DOWNLOAD_URL=" ftp://ftp.freedesktop.org/pub/mesa/mesa-17.2.3.tar.xz"
 GLU_DOWNLOAD_URL="ftp://ftp.freedesktop.org/pub/mesa/glu/glu-9.0.0.tar.gz"
 POPPLER_DOWNLOAD_URL="https://poppler.freedesktop.org/poppler-0.61.1.tar.xz"
 #POPPLER_DOWNLOAD_URL="https://github.com/NetsoftHoldings/poppler/archive/netsoft-0.56.1.tar.gz"
-OPENJPEG_DOWNLOAD_URL="https://github.com/uclouvain/openjpeg/archive/v2.1.2.tar.gz"
-CMAKE_DOWNLOAD_URL="https://cmake.org/files/v3.9/cmake-3.9.0-Linux-x86_64.tar.gz"
+OPENJPEG_DOWNLOAD_URL="https://github.com/uclouvain/openjpeg/archive/v2.3.0/openjpeg-2.3.0.tar.gz"
+CMAKE_DOWNLOAD_URL="https://cmake.org/files/v3.10/cmake-3.10.0.tar.gz"
 
 
 #DEB_DOWNLOAD_URL=$AWS_BASE_URL/LibreOffice_${VERSION}_Linux_x86-64_deb.tar.gz
@@ -57,16 +57,16 @@ tar xzf libreoffice.tar.gz
 cd ${archive_name}
 
 needed_debs="\
-	DEBS/libobasis5.2-core_* \
-	DEBS/libobasis5.2-en-us_* \
-	DEBS/libobasis5.2-en-us-res_* \
-	DEBS/libobasis5.2-en-us-writer_* \
-	DEBS/libobasis5.2-graphicfilter_* \
-	DEBS/libobasis5.2-writer_* \
-	DEBS/libobasis5.2-ooofonts_* \
-	DEBS/libreoffice5.2_* \
-	DEBS/libreoffice5.2-ure_* \
-	DEBS/libreoffice5.2-writer_* \
+	DEBS/libobasis5.4-core_* \
+	DEBS/libobasis5.4-en-us_* \
+	DEBS/libobasis5.4-en-us-res_* \
+	DEBS/libobasis5.4-en-us-writer_* \
+	DEBS/libobasis5.4-graphicfilter_* \
+	DEBS/libobasis5.4-writer_* \
+	DEBS/libobasis5.4-ooofonts_* \
+	DEBS/libreoffice5.4_* \
+	DEBS/libreoffice5.4-ure_* \
+	DEBS/libreoffice5.4-writer_* \
 	"
 
 for f in $needed_debs
